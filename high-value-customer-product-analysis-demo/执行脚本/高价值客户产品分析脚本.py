@@ -21,7 +21,7 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 # 配置路径
 INPUT_FILE = os.path.join(PROJECT_ROOT, 'data', '脱敏数据_增强版.xlsx')
-OUTPUT_FILE = os.path.join(PROJECT_ROOT, 'analysis-results', '高价值客户产品分析结果.xlsx')
+OUTPUT_FILE = os.path.join(PROJECT_ROOT, '分析结果', '高价值客户产品分析结果.xlsx')
 
 
 def validate_file_exists(file_path: str, file_type: str = "文件") -> None:

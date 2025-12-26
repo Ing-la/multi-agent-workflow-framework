@@ -20,9 +20,9 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 # 配置路径
 MAPPING_FILE = os.path.join(PROJECT_ROOT, 'data', '映射记录.json')
-INPUT_MARKDOWN = os.path.join(PROJECT_ROOT, 'analysis-results', 'analysis-report.md')
-INPUT_EXCEL = os.path.join(PROJECT_ROOT, 'analysis-results', '高价值客户产品分析结果.xlsx')
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'analysis-results', 'real-conclusions')
+INPUT_MARKDOWN = os.path.join(PROJECT_ROOT, '分析结果', '高价值客户产品分析报告.md')
+INPUT_EXCEL = os.path.join(PROJECT_ROOT, '分析结果', '高价值客户产品分析结果.xlsx')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, '分析结果', '真实结论')
 
 
 def validate_file_exists(file_path: str, file_type: str = "文件") -> None:
@@ -279,7 +279,7 @@ def process_all() -> None:
             raise ValueError("映射关系为空，无法进行反脱敏处理")
         
         # 处理Markdown文件
-        output_markdown = os.path.join(OUTPUT_DIR, 'analysis-report.md')
+        output_markdown = os.path.join(OUTPUT_DIR, '高价值客户产品分析报告.md')
         desensitize_markdown(INPUT_MARKDOWN, output_markdown, reverse_mappings)
         
         # 处理Excel文件
