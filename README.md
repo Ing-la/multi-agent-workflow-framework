@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/status-Active-success.svg)
 ![AI](https://img.shields.io/badge/AI-Multi--Agent-orange.svg)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-brightgreen.svg)](https://github.com/lng-la/multi-agent-workflow-framework)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-brightgreen.svg)](https://github.com/Ing-la/AI-agent-interaction-workflow)
 
 **🤖 一个基于多Agent协作的数据分析工作流框架实践**
 
@@ -145,9 +145,9 @@
 
 本项目为实践案例分享，欢迎：
 
-- ⭐ [Star 本项目](https://github.com/lng-la/multi-agent-workflow-framework)
+- ⭐ [Star 本项目](https://github.com/Ing-la/AI-agent-interaction-workflow)
 - 💡 分享您的实践经验和改进建议
-- 🐛 [提交 Issue](https://github.com/lng-la/multi-agent-workflow-framework/issues) 反馈问题或讨论
+- 🐛 [提交 Issue](https://github.com/Ing-la/AI-agent-interaction-workflow/issues) 反馈问题或讨论
 
 ---
 
@@ -155,7 +155,7 @@
 
 **如果这个项目对您有帮助，请给一个 ⭐ Star！**
 
-Made with ❤️ by [lng-la](https://github.com/lng-la)
+Made with ❤️ by [Ing-la](https://github.com/Ing-la)
 
 </div>
 
