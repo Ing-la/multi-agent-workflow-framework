@@ -4,6 +4,8 @@
 
 ![Status](https://img.shields.io/badge/status-Active-success.svg)
 ![AI](https://img.shields.io/badge/AI-Multi--Agent-orange.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-brightgreen.svg)](https://github.com/Ing-la/multi-agent-workflow-framework)
 
 **🤖 一个基于多Agent协作的数据分析工作流框架实践**
@@ -88,6 +90,37 @@
 3. **安全可控**：Agent不访问真实数据；执行由人工完成；结果可追溯
 4. **可复用性高**：每个环节产出均有留痕，形成标准模板与知识沉淀
 
+## 📋 环境要求
+
+- **Python**: 3.8 或更高版本
+- **依赖包**:
+  - pandas >= 1.5.0
+  - numpy >= 1.23.0
+  - openpyxl >= 3.0.0
+  - matplotlib >= 3.6.0 (可选，用于可视化)
+
+## 🔧 安装
+
+### 1. 克隆项目
+
+```bash
+git clone https://github.com/Ing-la/multi-agent-workflow-framework.git
+cd multi-agent-workflow-framework
+```
+
+### 2. 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. 验证安装
+
+```bash
+python --version  # 应显示 Python 3.8+
+pip list | grep pandas  # 应显示 pandas 版本
+```
+
 ## 🚀 快速开始
 
 ### 项目结构
@@ -101,6 +134,8 @@
 │   ├── 2.3流程复现.md                 # 完整流程复现示例
 │   ├── 数据分析师agent阶段汇总.md     # 阶段汇总文档
 │   └── ...                            # 其他相关文档
+├── high-value-customer-product-analysis-demo/  # 实践案例Demo
+│   └── README.md                      # Demo说明文档
 └── Picture/                           # 图片资源目录
     └── ...                            # 流程截图与示意图
 ```
@@ -108,22 +143,25 @@
 ### 使用指南
 
 1. **阅读主文档**：从 [`AI实践.md`](./AI实践.md) 开始，了解整体框架设计
-2. **查看流程复现**：参考 [`Appendix/2.3流程复现.md`](./Appendix/2.3流程复现.md) 了解具体执行过程
-3. **学习框架制定**：参考 [`Appendix/框架方案.md`](./Appendix/框架方案.md) 了解业务框架制定逻辑
-4. **理解阶段汇总**：参考 [`Appendix/数据分析师agent阶段汇总.md`](./Appendix/数据分析师agent阶段汇总.md) 了解多阶段协作机制
+2. **查看实践案例**：参考 [`high-value-customer-product-analysis-demo/README.md`](./high-value-customer-product-analysis-demo/README.md) 了解完整的数据分析实践案例
+3. **查看流程复现**：参考 [`Appendix/2.3流程复现.md`](./Appendix/2.3流程复现.md) 了解具体执行过程
+4. **学习框架制定**：参考 [`Appendix/框架方案.md`](./Appendix/框架方案.md) 了解业务框架制定逻辑
+5. **理解阶段汇总**：参考 [`Appendix/数据分析师agent阶段汇总.md`](./Appendix/数据分析师agent阶段汇总.md) 了解多阶段协作机制
 
 ## 📚 文档导航
 
 ### 主要文档
 
 - **[AI实践.md](./AI实践.md)** - 完整的框架说明与实践总结
+- **[高价值客户产品分析Demo](./high-value-customer-product-analysis-demo/README.md)** - 完整的数据分析实践案例
 - **[框架方案.md](./Appendix/框架方案.md)** - 业务分析框架的制定逻辑与规范化方向
 - **[2.3流程复现.md](./Appendix/2.3流程复现.md)** - 从方案生成到脚本执行、结果审阅的全过程展示
 - **[数据分析师agent阶段汇总.md](./Appendix/数据分析师agent阶段汇总.md)** - 各阶段结果汇总与业务框架维护过程
 
 ### 详细文档
 
-更多详细的执行文档、脚本审阅报告、分析结论等，请查看 [`Appendix/`](./Appendix/) 目录。
+- **实践案例**：更多详细的实验记录、脚本、审阅报告等，请查看 [`high-value-customer-product-analysis-demo/`](./high-value-customer-product-analysis-demo/) 目录
+- **框架文档**：更多详细的执行文档、脚本审阅报告、分析结论等，请查看 [`Appendix/`](./Appendix/) 目录
 
 ## 🎓 经验与思考
 

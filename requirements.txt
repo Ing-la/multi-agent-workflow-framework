@@ -1,0 +1,8 @@
+# Core dependencies for data analysis
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0
+
+# Optional: for visualization (used in Appendix scripts)
+matplotlib>=3.6.0
+
