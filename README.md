@@ -157,6 +157,7 @@ pip list | grep pandas  # 应显示 pandas 版本
 - **[框架方案.md](./Appendix/框架方案.md)** - 业务分析框架的制定逻辑与规范化方向
 - **[2.3流程复现.md](./Appendix/2.3流程复现.md)** - 从方案生成到脚本执行、结果审阅的全过程展示
 - **[数据分析师agent阶段汇总.md](./Appendix/数据分析师agent阶段汇总.md)** - 各阶段结果汇总与业务框架维护过程
+- **[Prompt/Rule工程实践](./Appendix/prompt-rule工程.md)** - Agent角色规范的模板与实践参考
 
 ### 详细文档
 
