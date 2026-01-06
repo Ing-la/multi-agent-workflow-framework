@@ -172,6 +172,25 @@ pip list | grep pandas  # 应显示 pandas 版本
 4. **Agent也会"幻觉"**：输入不完整时会自行补全；规范流程可降低风险
 5. **知识库建设是核心资产**：流程规范与经验沉淀可转化为可复用智能资产
 
+## 🚀 实践案例
+
+### Ops Risk Analytics - 完整应用开发案例
+
+[**Ops Risk Analytics**](https://github.com/Ing-la/automated-ops-reporting) 是一个使用本框架方法论开发的完整数据分析自动化应用，展示了AI辅助开发在实际项目中的成功应用。
+
+**项目特点**：
+- ✅ **完整端到端实现**：从数据处理、指标计算、可视化到LLM分析、报告生成、OSS上传、飞书推送的完整流程
+- ✅ **前后端架构**：包含GUI界面和命令行两种使用方式
+- ✅ **高效开发**：使用Cursor等AI协作工具，在探索AI辅助开发的过程中，3天内完成从需求分析到系统上线的完整开发周期
+- ✅ **生产可用**：已部署使用，支持月度自动化分析报告生成
+
+**与本框架的关系**：
+- 本项目（Multi-Agent Workflow Framework）提供**方法论和协作框架**
+- Ops Risk Analytics 展示了**方法论在实际项目中的应用效果**
+- 两者形成从"如何思考"到"如何实现"的完整链条
+
+> 💡 如果您想了解如何将AI协作方法论应用到实际项目中，欢迎查看 [Ops Risk Analytics](https://github.com/Ing-la/automated-ops-reporting) 项目。
+
 ## 🗺️ 落地路径
 
 ### 短期目标：培养标准化Agent
